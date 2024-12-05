@@ -34,9 +34,10 @@ def calculator():
             elif option == "2":
                 print("La resta es:", substract(num1, num2))
             elif option == "3":
-                print("La división es:", divide(num1, num2))
-            elif option == "4":
                 print("La multiplicación es:", multiply(num1, num2))
+            elif option == "4":
+                print("La división es:", divide(num1, num2))
+                
         
         else:
             print("Opción no válida, por intenta de nuevo")
