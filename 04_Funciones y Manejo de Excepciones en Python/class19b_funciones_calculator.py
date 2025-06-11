@@ -1,14 +1,18 @@
-def add(a,b):
-    return a+b
+def add(a, b):
+    return a + b
 
-def substract(a,b):
+
+def substract(a, b):
     return a - b
 
-def multiply(a,b):
+
+def multiply(a, b):
     return a * b
 
-def divide(a,b):
+
+def divide(a, b):
     return a / b
+
 
 def calculator():
     while True:
@@ -25,7 +29,7 @@ def calculator():
             print("Saliendo de la calculadora")
             break
 
-        if option in ["1","2","3","4"]:
+        if option in ["1", "2", "3", "4"]:
             num1 = float(input("Ingrese el primer numero: "))
             num2 = float(input("Ingrese el segundo numero: "))
 
@@ -34,11 +38,12 @@ def calculator():
             elif option == "2":
                 print("La resta es:", substract(num1, num2))
             elif option == "3":
-                print("La división es:", divide(num1, num2))
-            elif option == "4":
                 print("La multiplicación es:", multiply(num1, num2))
-        
+            elif option == "4":
+                print("La división es:", divide(num1, num2))
+
         else:
             print("Opción no válida, por intenta de nuevo")
 
-calculator()        
+
+calculator()

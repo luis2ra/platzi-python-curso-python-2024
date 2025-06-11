@@ -6,6 +6,7 @@ def sum_numbers(n):
     else:
         return n + sum_numbers(n - 1)
 
+
 # Llamada a la función
-result = sum_numbers(5)
+result = sum_numbers(15)
 print(f"Suma de los primeros 5 números es: {result}")
