@@ -6,6 +6,7 @@ class Person:
     def greet(self):
         print(f"Hola, mi nombre es {self.name} y tengo {self.age}")
 
+
 person1 = Person("Ana", 30)
 person2 = Person("Luis", 25)
 

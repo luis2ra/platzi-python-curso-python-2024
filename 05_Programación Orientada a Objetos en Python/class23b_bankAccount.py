@@ -1,9 +1,9 @@
 class BankAccount:
     def __init__(self, account_holder, balance):
         self.account_holder = account_holder
-        self. balance = balance
+        self.balance = balance
         self.is_active = True
-    
+
     def deposit(self, amount):
         if self.is_active:
             self.balance += amount
@@ -25,10 +25,11 @@ class BankAccount:
         self.is_active = True
         print(f"La cuenta ha sido activada")
 
+
 account1 = BankAccount("Ana", 500)
 account2 = BankAccount("Luis", 1000)
 
-#Llamada a los metodos
+# Llamada a los metodos
 account1.deposit(200)
 account2.deposit(100)
 account1.deactivate_account()

@@ -33,7 +33,9 @@ class Customer:
 
     def inquire_car(self, car):
         availability = "disponible" if car.check_availability() else "no disponible"
-        print(f"El coche {car.brand} {car.model} está {availability} y cuesta {car.get_price()}.")
+        print(
+            f"El coche {car.brand} {car.model} está {availability} y cuesta {car.get_price()}."
+        )
 
 
 class Dealership:
